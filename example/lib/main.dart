@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_native_timezone/flutter_native_timezone.dart';
+import 'package:platform_timezone/platform_timezone.dart';
 
 void main() => runApp(MyApp());
 
@@ -22,12 +22,12 @@ class _MyAppState extends State<MyApp> {
 
   Future<void> _initData() async {
     try {
-      _timezone = await FlutterNativeTimezone.getLocalTimezone();
+      _timezone = await PlatformTimezone.getLocalTimezone();
     } catch (e) {
       print('Could not get the local timezone');
     }
     try {
-      _availableTimezones = await FlutterNativeTimezone.getAvailableTimezones();
+      _availableTimezones = await PlatformTimezone.getAvailableTimezones();
     } catch (e) {
       print('Could not get available timezones');
     }

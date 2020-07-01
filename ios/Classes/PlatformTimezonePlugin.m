@@ -1,11 +1,11 @@
-#import "FlutterNativeTimezonePlugin.h"
+#import "PlatformTimezonePlugin.h"
 
-@implementation FlutterNativeTimezonePlugin
+@implementation PlatformTimezonePlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
-      methodChannelWithName:@"flutter_native_timezone"
+      methodChannelWithName:@"platform_timezone"
             binaryMessenger:[registrar messenger]];
-  FlutterNativeTimezonePlugin* instance = [[FlutterNativeTimezonePlugin alloc] init];
+  PlatformTimezonePlugin* instance = [[PlatformTimezonePlugin alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
 }
 

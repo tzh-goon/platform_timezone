@@ -1,11 +1,11 @@
 import 'package:flutter/services.dart';
-import 'package:flutter_native_timezone/flutter_native_timezone.dart';
+import 'package:platform_timezone/platform_timezone.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
-    
-  const MethodChannel channel = MethodChannel('flutter_native_timezone');
+
+  const MethodChannel channel = MethodChannel('platform_timezone');
 
   setUp(() {
     channel.setMockMethodCallHandler((MethodCall methodCall) async {
@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getLocalTimezone', () async {
-    expect(await FlutterNativeTimezone.getLocalTimezone(), '42');
+    expect(await PlatformTimezone.getLocalTimezone(), '42');
   });
 }

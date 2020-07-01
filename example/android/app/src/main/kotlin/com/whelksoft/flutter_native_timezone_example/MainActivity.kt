@@ -1,4 +1,4 @@
-package com.whelksoft.flutter_native_timezone_example
+package com.tzhgoon.platform_timezone_example
 
 import android.os.Bundle
 

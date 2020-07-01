@@ -3,10 +3,10 @@
 //
 
 #import "GeneratedPluginRegistrant.h"
-#import <flutter_native_timezone/TimezoneNativePlugin.h>
+#import <platform_timezone/PlatformTimezonePlugin.h>
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
-  [TimezonePlugin registerWithRegistrar:[registry registrarForPlugin:@"NativeTimezonePlugin"]];
+  [PlatformTimezonePlugin registerWithRegistrar:[registry registrarForPlugin:@"NativeTimezonePlugin"]];
 }
 
 @end

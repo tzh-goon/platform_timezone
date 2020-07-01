@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flutter_native_timezone_v2.iml" filepath="$PROJECT_DIR$/flutter_native_timezone_v2.iml" group="flutter_native_timezone_v2" />
     </modules>
   </component>
 </project>

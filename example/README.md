@@ -1,6 +1,6 @@
-# flutter_native_timezone
+# example
 
-Demonstrates how to use the flutter_native_timezone plugin.
+Demonstrates how to use the platform_timezone plugin.
 
 ## Getting Started
 

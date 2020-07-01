@@ -1,6 +1,6 @@
-# flutter_native_timezone
+# platform_timezone
 
-A flutter plugin for getting the local timezone of the os.
+A flutter plugin for getting the local timezone of the os. And It is migrated to v2.
 
 ## Getting Started
 
