@@ -1,6 +1,6 @@
 name: platform_timezone
-description: A flutter plugin for getting the local timezone of the os. And It is migrated to v2.
-version: 1.0.0
+description: A flutter plugin for getting the platform timezone.
+version: 1.0.1
 homepage: https://github.com/tzh-goon/platform_timezone
 
 environment:
